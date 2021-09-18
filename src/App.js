@@ -76,7 +76,7 @@ export default function App() {
 
                                 <div className = "C-eather">
                                     <div>
-                                        <p>Current Weather:</p>
+                                        <p>Current Weather</p>
                                     </div>
 
                                     <div>
