@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.App {
+    height:100vh
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -54,4 +58,15 @@
     display: grid;
     height: 51vh;
     align-items: center;
+}
+
+.img {
+    height: 100vh;
+    width: 100%;
+}
+
+.positioning {
+    position: relative;
+    z-index: 33;
+    bottom: 581px;
 }
