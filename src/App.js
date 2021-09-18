@@ -105,7 +105,7 @@ export default function App() {
                                     </div>
 
                                     <div>
-                                        Humidity:  {data.main.humidity}%
+                                        Humidity: <a> {data.main.humidity}% </a> 
                                     </div>
                                 </div>
 
