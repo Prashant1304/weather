@@ -48,7 +48,7 @@ export default function App() {
   return (
     <div className="App">
         <div className="img-main">
-        <img className="img" src="https://www.kenya.campusfrance.org/sites/pays/files/kenya/new-history-forecast-bulk_0.png" ></img>
+        <img className="img" src="https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" ></img>
         </div>
         <div className = "positioning" >
             <div classNam = "header" >
