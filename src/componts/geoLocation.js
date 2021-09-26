@@ -89,7 +89,7 @@ return(
                         {data2.list[0].weather[0].description}
                     </div>
                     <div className = "top-temp">
-                        {(data2.list[0].main.temp)}&#176;
+                        {(data2.list[0].main.temp).toFixed(0)}&#176;
                     </div>
             
                     <div>
@@ -126,7 +126,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>
                     </div>
@@ -143,7 +143,7 @@ return(
                                 </div>
 
                                 <div>
-                                    {  (data2.list[0].main.temp_min)}
+                                    {  (data2.list[0].main.temp_min).toFixed(0)}
                                 </div>
                             </div>    
                     </div>
@@ -162,7 +162,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                             
                         </div>
@@ -182,7 +182,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>       
                     </div>
@@ -201,7 +201,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>  
             
@@ -221,7 +221,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>
                             
@@ -240,7 +240,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>  
             
@@ -260,7 +260,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>
                             
@@ -280,7 +280,7 @@ return(
                             </div>
 
                             <div>
-                                {  (data2.list[0].main.temp_min)}
+                                {  (data2.list[0].main.temp_min).toFixed(0)}
                             </div>
                         </div>
                             
