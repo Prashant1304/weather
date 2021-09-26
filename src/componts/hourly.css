@@ -1,0 +1,14 @@
+.scrool {
+    overflow: auto;
+    white-space: nowrap;
+    height: 14vh;
+    display: flex;
+}
+
+.sub-scrool {
+    display: flex;
+    color: white;
+    padding: 10px;
+    flex-flow: column;
+    justify-content: space-between;
+}

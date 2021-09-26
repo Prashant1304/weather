@@ -1,0 +1,37 @@
+
+.screen1-loc-container {
+    display: flex;
+    padding-bottom: 9px;
+    position: absolute;
+    color: #F5F9F9;
+    bottom: 32px;
+    padding: 10px;
+}
+
+.screen1-location {
+    border: none;
+    background: none;
+    color: #F5F9F9;
+    padding-left: 12px;
+}
+
+.dum-location {
+    font-size: 30px;
+    padding-left: 9px;
+}
+
+.screen1-temp {
+    width: 29vh;
+    text-align: end;
+    font-size: 46px;
+    align-self: center;
+}
+
+.geo-location-image {
+    width: 100%;
+    height: 17vh;
+}
+
+.geo-position {
+    position: relative;
+}
