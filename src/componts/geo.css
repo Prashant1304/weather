@@ -1,11 +1,9 @@
 
 .screen1-loc-container {
     display: flex;
-    padding-bottom: 9px;
     position: absolute;
     color: #F5F9F9;
     bottom: 32px;
-    padding: 10px;
 }
 
 .screen1-location {
@@ -21,11 +19,26 @@
 }
 
 .screen1-temp {
-    width: 26vh;
-    text-align: end;
+    width: 28vh;
+    /* text-align: end; */
     font-size: 46px;
-    align-self: center;
+    align-items: center;
+    display: flex;
+    padding-right: 17px;
+    justify-content: flex-end;
 }
+
+@media  screen and (min-width: 450px) {
+    .screen1-temp {
+        width: 62vh;
+        /* text-align: end; */
+        font-size: 46px;
+        align-items: center;
+        display: flex;
+        padding-right: 17px;
+        justify-content: flex-end;
+    }
+  }
 
 .geo-location-image {
     width: 100%;

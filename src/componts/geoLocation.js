@@ -54,7 +54,7 @@ return(
               {data2.city ? (
                   <div className = "geo-position">
                 <div className = "screen1-loc-container">
-                    <div>
+                    <div style = {{paddingLeft:"9px"}}>
                     <div>
                         <button className = "screen1-location" onClick = {handleChange} value={data2.city.name}> {data2.city.name} </button>
                     </div>
